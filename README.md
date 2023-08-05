@@ -7,6 +7,5 @@ PROJEDE KULLANILAN KÜTÜPHANELER, FRAMEWORKLER, DİLLER VE TEKNOLOJİLER
 - OpenAPI
 - H2 In memory database  
 - Docker
-- Docker compose
 - JUnit 5
 - ReactJS
