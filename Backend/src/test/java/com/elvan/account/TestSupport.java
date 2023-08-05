@@ -1,7 +1,7 @@
-package com.folksdev.account;
+package com.elvan.account;
 
-import com.folksdev.account.dto.CreateAccountRequest;
-import com.folksdev.account.model.Customer;
+import com.elvan.account.dto.CreateAccountRequest;
+import com.elvan.account.model.Customer;
 
 import java.math.BigDecimal;
 import java.time.Clock;

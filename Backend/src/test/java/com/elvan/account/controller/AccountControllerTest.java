@@ -1,8 +1,8 @@
-package com.folksdev.account.controller;
+package com.elvan.account.controller;
 
-import com.folksdev.account.IntegrationTestSupport;
-import com.folksdev.account.dto.CreateAccountRequest;
-import com.folksdev.account.model.Customer;
+import com.elvan.account.IntegrationTestSupport;
+import com.elvan.account.dto.CreateAccountRequest;
+import com.elvan.account.model.Customer;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

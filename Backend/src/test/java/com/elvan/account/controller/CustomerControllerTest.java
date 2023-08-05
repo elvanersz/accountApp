@@ -1,26 +1,19 @@
-package com.folksdev.account.controller;
+package com.elvan.account.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.folksdev.account.IntegrationTestSupport;
-import com.folksdev.account.TestSupport;
-import com.folksdev.account.dto.CustomerDto;
-import com.folksdev.account.dto.converter.CustomerDtoConverter;
-import com.folksdev.account.model.Customer;
-import com.folksdev.account.repository.CustomerRepository;
-import com.folksdev.account.service.AccountService;
-import org.junit.jupiter.api.BeforeEach;
+import com.elvan.account.IntegrationTestSupport;
+import com.elvan.account.dto.CustomerDto;
+import com.elvan.account.dto.converter.CustomerDtoConverter;
+import com.elvan.account.model.Customer;
+import com.elvan.account.repository.CustomerRepository;
+import com.elvan.account.service.AccountService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.Objects;
 

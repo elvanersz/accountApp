@@ -1,11 +1,11 @@
-package com.folksdev.account;
+package com.elvan.account;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.folksdev.account.dto.converter.CustomerDtoConverter;
-import com.folksdev.account.repository.CustomerRepository;
-import com.folksdev.account.service.AccountService;
+import com.elvan.account.dto.converter.CustomerDtoConverter;
+import com.elvan.account.repository.CustomerRepository;
+import com.elvan.account.service.AccountService;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.web.servlet.MockMvc;
