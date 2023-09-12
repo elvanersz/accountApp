@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.elvan</groupId>
-    <artifactId>account-api</artifactId>
+    <artifactId>accountBackend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>account-api</name>
     <description>Demo project for Spring Boot</description>
